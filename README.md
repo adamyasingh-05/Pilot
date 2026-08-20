@@ -27,6 +27,12 @@ npm install -g pilot-agent
 pilot
 ```
 
+## Try it without installing
+
+```bash
+npx pilot-agent
+```
+
 ## Screenshots
 
 | Command palette (`Ctrl+K`) | Providers |
@@ -63,9 +69,7 @@ pilot
 npm install -g pilot-agent
 pilot init
 ```
-'''bash
-npx pilot-agent
-'''
+
 ## Quick start
 
 ```bash
@@ -142,12 +146,21 @@ tool registry, and TUI fit together, and
 ## Development
 
 ```bash
-git clone https://github.com/pilot-agent/pilot
-cd pilot
+git clone https://github.com/adamyasingh-05/Pilot.git
+cd Pilot
 npm install
 npm run dev -- "list files in the current directory"
 npm test
 ```
+
+## Contributing
+
+Contributions are welcome! Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) and our
+[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) before opening a pull request.
+
+## Security
+
+Found a vulnerability? See [`SECURITY.md`](SECURITY.md) for how to report it responsibly.
 
 ## License
 
