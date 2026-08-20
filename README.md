@@ -75,6 +75,7 @@ pilot init
 ```bash
 # Fully local, no API key needed
 ollama serve
+ollama pull llama3.1        # only needed once, downloads the model
 pilot config provider ollama
 pilot
 
@@ -104,6 +105,13 @@ pilot config keys delete <provider>
 pilot history                  # recent tasks
 pilot audit                    # local action audit log
 ```
+
+## Troubleshooting
+
+- **`Ollama error (404): model 'llama3.1' not found`** — Ollama is running but
+  doesn't have that model downloaded yet. Run `ollama pull llama3.1`, or point
+  Pilot at a model you already have with `pilot config model <name>` (see
+  installed models via `ollama list`).
 
 ## Supported providers
 
