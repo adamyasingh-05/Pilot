@@ -63,7 +63,9 @@ pilot
 npm install -g pilot-agent
 pilot init
 ```
-
+'''bash
+npx pilot-agent
+'''
 ## Quick start
 
 ```bash
